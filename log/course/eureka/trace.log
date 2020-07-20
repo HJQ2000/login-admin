@@ -128,3 +128,14 @@
 2020-07-20 15:31:55.933 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 1ms
 2020-07-20 15:31:58.309 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.43.49:system:9001 with status UP (replication=false)
 2020-07-20 15:31:58.822 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.43.49:system:9001 with status UP (replication=true)
+2020-07-20 15:32:55.935 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 2ms
+2020-07-20 15:33:55.937 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1250 [32m        [0;39m Running the evict task with compensationTime 3ms
+2020-07-20 15:34:09.747 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.43.49:system:9001 with status DOWN (replication=false)
+2020-07-20 15:34:10.254 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.43.49:system:9001 with status DOWN (replication=true)
+2020-07-20 15:34:12.761 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:330  [32m        [0;39m Cancelled instance SYSTEM/192.168.43.49:system:9001 (replication=false)
+2020-07-20 15:34:13.272 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:315  [32m        [0;39m DS: Registry: cancel failed because Lease is not registered for: SYSTEM/192.168.43.49:system:9001
+2020-07-20 15:34:13.272 INFO  com.netflix.eureka.resources.InstanceResource     :288  [32m        [0;39m Not Found (Cancel): SYSTEM - 192.168.43.49:system:9001
+2020-07-20 15:34:13.274 WARN  com.netflix.eureka.cluster.ReplicationTask        :35   [32m        [0;39m The replication of task SYSTEM/192.168.43.49:system:9001:Cancel@localhost failed with response code 404
+2020-07-20 15:34:13.274 WARN  com.netflix.eureka.cluster.PeerEurekaNode         :171  [32m        [0;39m SYSTEM/192.168.43.49:system:9001:Cancel@localhost: missing entry.
+2020-07-20 15:34:19.564 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.43.49:system:9001 with status UP (replication=false)
+2020-07-20 15:34:20.073 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/192.168.43.49:system:9001 with status UP (replication=true)
